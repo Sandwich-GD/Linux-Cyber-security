@@ -9,41 +9,41 @@ This is a guide/tutorial thats meant for people to see what pros and cons do spe
 
 ## 1. Distributions
 
-Ubuntu: Very user-friendly, but not really for privacy. Really good for beginners though.
+*Ubuntu*: Very user-friendly, but not really for privacy. Really good for beginners though.
 
-Debian: Fantastic debian-based distro, could definetly be used.
+*Debian*: Fantastic debian-based distro, could definetly be used.
 
-Arch: Fantastic, Very good if youre looking to be as private as possible.
+*Arch*: Fantastic, Very good if youre looking to be as private as possible.
 
-CachyOS: I personally use this distro, its just like arch, but user-friendly.
+*CachyOS*: I personally use this distro, its just like arch, but user-friendly.
 
-NixOS: Very good, pretty private, gotta give props to this one.
+*NixOS*: Very good, pretty private, gotta give props to this one.
 
-Fedora: Overall not very good, considering not many packages are in the fedora repos, though good distro.
+*Fedora*: Overall not very good, considering not many packages are in the fedora repos, though good distro.
 
-If youre starting out: choose debian, ubuntu, or cachyos.
+*If youre starting out, choose Debian, Ubuntu, or CachyOS.*
 
-If youre experienced, use arch, fedora, or cachyos.
+*If youre experienced, use Arch, Fedora, or CachyOS.*
 
-If you cant pick: choose cachyos, since for most use-cases its really good.
+*If you cant pick: choose CachyOS, since for most use-cases its really good.*
 
 ## 2. Kernels
 
-linux: The regular linux kernel, not really good, but can be used.
+*linux*: The regular linux kernel, not really good, but can be used.
 
-linux-zen: The zen kernel, its way faster, and pretty private.
+*linux-zen*: The zen kernel, its way faster, and pretty private.
 
-linux-hardened: The hardened kernel, the best one, and overall a great choice.
+*linux-hardened*: The hardened kernel, the best one, and overall a great choice.
 
-linux-lqx: Liqourix kernel, the fastest one, and actually the best choice.
+*linux-lqx*: Liqourix kernel, the fastest one, and actually the best choice.
 
-linux-lts: Long term support kernel, great if you want a kernel that lasts with no breakage, but not really a good choice.
+*linux-lts*: Long term support kernel, great if you want a kernel that lasts with no breakage, but not really a good choice.
 
-If youre a beginner: Stick with either linux-zen, or linux-hardened for now.
+*If youre a beginner: Stick with either linux-zen, or linux-hardened for now.*
 
-If youre advanced: You should choose linux-lqx, or linux-hardened.
+*If youre advanced: You should choose linux-lqx, or linux-hardened.*
 
-If you know what youre doing: You should use the one you think is best for you, but be careful.
+*If you cant pick, choose linux-hardened.*
 
 ## 3. Applications/Tools
 
@@ -59,37 +59,37 @@ If you know what youre doing: You should use the one you think is best for you, 
 
 [Linux hardening](https://github.com/trimstray/the-practical-linux-hardening-guide?spm=a2ty_o01.29997173.0.0.6c6a5171kyfgoh)
 
-Definitely use Apparmor, Privacy toolkit, and if you really want to make sure, you can add another script.
+*Definitely use Apparmor, Privacy toolkit, and if you really want to make sure, you can add another script.*
 
 ### 4. Firefox User.js'
 
-[arkenfox](https://github.com/arkenfox/user.js/) For advanced users
+[arkenfox](https://github.com/arkenfox/user.js/) For *advanced* users.
 
-[Betterfox](https://github.com/yokoffing/BetterFox) For people that dont really know how it works
+[Betterfox](https://github.com/yokoffing/BetterFox) For people that *dont really know how it works.*
 
-[SecureFox](https://github.com/yokoffing/Betterfox/blob/main/Securefox.js) Designed for literally nothing else but security.
+[SecureFox](https://github.com/yokoffing/Betterfox/blob/main/Securefox.js) Designed for *literally nothing else but security.*
 
-If youre still a rookie, you should use Betterfox, since its designed for user-friendliness
+*If youre still a rookie, you should use Betterfox, since its designed for user-friendliness*
 
-If you dont like ads, news, and a bunch of bloat on your screen, try arkenfox.
+*If you dont like ads, news, and a bunch of bloat on your screen, try arkenfox.*
 
 ## 5. Browsers
 
-[Zen Browser](https://zen-browser.app/) Personally, the best browser right now. (Fork of firefox)
+[Zen Browser](https://zen-browser.app/) Personally, *the best browser right now. (Fork of firefox)*
 
-[Firefox](https://www.firefox.com/en-US/) Honestly, 2nd best one. And it might seem private, but you need to modify it yourself to be truly secure.
+[Firefox](https://www.firefox.com/en-US/) Honestly, 2nd best one. *And it might seem private, but you need to modify it yourself to be truly secure.*
 
-[Tor Browser](https://www.torproject.org/download/) The most secure, and protection-based browser of ALL-TIME. Supports onion links.
+[Tor Browser](https://www.torproject.org/download/) *The most secure, and protection-based browser of ALL-TIME.* Supports onion links.
 
-[Librewolf](https://librewolf.net/) I have never tried this before, but it has zero telemetry, so its a great, secure fork of firefox.
+[Librewolf](https://librewolf.net/) I have never tried this before, but it has *zero telemetry*, so its a great, secure fork of firefox.
 
-[Brave](https://brave.com/download/) Rather performance-based and user-friendliness based browser, but still on this list.
+[Brave](https://brave.com/download/) Rather *performance-based and user-friendliness* based browser, but still on this list.
 
-If youre starting out: choose either firefox, or brave.
+*If youre starting out: choose either firefox, or brave.*
 
-If youre experienced: Use firefox, zen browser, or librewolf.
+*If youre experienced: Use firefox, zen browser, or librewolf.*
 
-If you want full and complete privacy: Tor browser has got your back.
+*If you want full and complete privacy: Tor browser has got your back.*
 
 ## 6. Securing SSH
 
