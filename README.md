@@ -74,32 +74,8 @@ Test in a VM first, or keep a console session open (Ctrl+Alt F5)
 Backup your config: sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 Always verify SSH works after changes: sudo sshd -t (tests config) + sudo systemctl restart sshd
 
-Edit /etc/ssh/sshd_config with this:
-
-# Authentication
-PasswordAuthentication no          # Force key-only auth [[2]]
-PermitRootLogin no                 # Block direct root login [[2]]
-PermitEmptyPasswords no            # No blank passwords
-
-# Access Control
-AllowUsers yourname                # Only allow specific users [[2]]
-# Or: AllowGroups sshusers
-
-# Timeouts & Limits
-LoginGraceTime 30                  # 30s to authenticate (default: 120) [[2]]
-MaxAuthTries 3                     # Limit brute-force attempts [[2]]
-ClientAliveInterval 300            # Ping every 5 min
-ClientAliveCountMax 2              # Disconnect after 10 min idle [[2]]
-
-# Disable Unused Features
-X11Forwarding no                   # Unless you need GUI forwarding [[2]]
-AllowTcpForwarding no              # Block SSH tunneling if unused
-AllowAgentForwarding no
-
-# Strong Cryptography (modern OpenSSH defaults are good, but be explicit)
-KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org
-Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com
-MACs hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com
+Edit /etc/ssh/sshd_config with the content of this link:
+https://0x0.st/P9xl.txt
 
 ## Setting everything up
 
