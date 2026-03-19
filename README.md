@@ -121,6 +121,26 @@ Now, harden SSH with step 6.
 
 i havent made one yet, will be out soon.
 
+## Concrete path (follow this!)
+Forget google, and switch to DuckDuckgo, since its way more private, and better.
+
+Switch to atleast firefox, and install dark reader.
+
+Google services are bad. Im not joking, they are the worst of any other. They use fingerprints, and they scan your face
+and they are NOT private.
+
+And one more thing: Try GPT4ALL, since it doesnt use the chatgpt AI data centers, it works on any shitty dell, or regular PC. 
+
+It works offline, and its hosted directly on YOUR machine!!
+
+Try a few games of "TryHackMe", and some OSINT. They will teach you that security flaws are no joke.
+
+Avoid any face scans, at all costs. Theyre really dangerous, and they are not good.
+
+Do not scan your ID, unless you HAVE to.
+
+And NEVER click "Consent", when youre going to a website.
+
 ## Overhaul
 
 This is a repo, meant to collect all the linux hardening scripts and guides, and sort of combine them into one.
