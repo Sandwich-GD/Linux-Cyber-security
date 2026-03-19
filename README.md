@@ -71,19 +71,26 @@ linux-lts: Long term support kernel, great if you want a kernel that lasts with 
 ## 6. Securing SSH
 
 Test in a VM first, or keep a console session open (Ctrl+Alt F5)
+
 Backup your config: sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+
 Always verify SSH works after changes: sudo sshd -t (tests config) + sudo systemctl restart sshd
 
 Edit /etc/ssh/sshd_config with the content of this link:
+
 https://0x0.st/P9xl.txt
 
 ## Setting everything up
 
 ## Manual install
 First of all, run [This script](https://github.com/Michael-Sebero/Linux-Hardening-Script/blob/master/hardening-script.sh)
+
 Then, you should probably install either arkenfox, or betterfox.
+
 Now, run 'lynis audit system'.
+
 Check if apparmor is installed, with 'aa-status'. If its not a command, then install it, using 'sudo pacman -S apparmor'
+
 Now, harden SSH with step 6.
 
 ## Install script
@@ -98,12 +105,19 @@ and etc. etc., this is meant to be kind of an overhaul of those, and meant to be
 ## Credits
 
 Credits to CyberFlow: He makes cybersecurity videos, and is overall a huge person when it comes to cybersecurity.
+
 Credits to trimstray: Made a similar repo, but way more in-depth, and with multiple more things.
+
 Credits to Yokoffing: For making Betterfox, a version of arkenfox, but for "noobs".
+
 Credits to Arkenfox: A template, that completely and utterly removes bloat, ads, and enhances security overall.
+
 Credits to Michael-Sebero: For making the shell script
+
 Credits to abbott: For making the interactive shell script
+
 Credits to n3o4po11o, Sn0rt, biergaizi, Nalaginrut: For making the hardenedlinux github repo.
+
 And thats about it.
 
 Alright, bye!
