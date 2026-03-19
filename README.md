@@ -11,10 +11,15 @@ just overall meant to be for people who want to be more private.
 ## 1. Distributions
 
 Ubuntu: Very user-friendly, but not really for privacy. Really good for beginners though.
+
 Debian: Fantastic debian-based distro, could definetly be used.
+
 Arch: Fantastic, Very good if youre looking to be as private as possible.
+
 CachyOS: I personally use this distro, its just like arch, but user-friendly.
+
 NixOS: Very good, pretty private, gotta give props to this one.
+
 Fedora: Overall not very good, considering not many packages are in the fedora repos, though good distro.
 
 ## 2. Kernels
