@@ -7,6 +7,42 @@
 
 This is a guide/tutorial thats meant for people to see what pros and cons do specific distros have, same thing with kernels, browsers, and its just overall meant to be for people who want to be more private.
 
+## Concrete path (follow this!)
+Forget google, and switch to DuckDuckgo, since its way more private, and better.
+
+Switch to atleast firefox, and install dark reader.
+
+Google services are bad. Im not joking, they are the worst of any other. They use fingerprints, and they scan your face
+and they are NOT private.
+
+And one more thing: Try GPT4ALL, since it doesnt use the chatgpt AI data centers, it works on any shitty dell, or regular PC. 
+
+It works offline, and its hosted directly on YOUR machine!!
+
+Try a few games of "TryHackMe", and some OSINT. They will teach you that security flaws are no joke.
+
+Avoid any face scans, at all costs. Theyre really dangerous, and they are not good.
+
+Do not scan your ID, unless you HAVE to.
+
+And NEVER click "Consent", when youre going to a website.
+
+## Real Scenarios (Pre-warn)
+Do not use the same password everywhere, because hackers move FAST.
+
+They will try the password on Email, Games, Google, etc. etc.
+
+When you see a shady email, like someone from microsoft or discord offering something for free?
+
+Its too good to be true.
+
+When you see someone message you on discord, asking for something really specific?
+
+Like they ask you to go on a webpage, get a bookmark, go on your games website, and click it?
+Dont.
+
+Ok, sorry, i just had to get a message out there.
+
 ## 1. Distributions
 
 *Ubuntu*: Very user-friendly, but not really for privacy. Really good for beginners though.
@@ -120,26 +156,6 @@ Now, harden SSH with step 6.
 ## Install script
 
 i havent made one yet, will be out soon.
-
-## Concrete path (follow this!)
-Forget google, and switch to DuckDuckgo, since its way more private, and better.
-
-Switch to atleast firefox, and install dark reader.
-
-Google services are bad. Im not joking, they are the worst of any other. They use fingerprints, and they scan your face
-and they are NOT private.
-
-And one more thing: Try GPT4ALL, since it doesnt use the chatgpt AI data centers, it works on any shitty dell, or regular PC. 
-
-It works offline, and its hosted directly on YOUR machine!!
-
-Try a few games of "TryHackMe", and some OSINT. They will teach you that security flaws are no joke.
-
-Avoid any face scans, at all costs. Theyre really dangerous, and they are not good.
-
-Do not scan your ID, unless you HAVE to.
-
-And NEVER click "Consent", when youre going to a website.
 
 ## Overhaul
 
