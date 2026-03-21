@@ -8,16 +8,19 @@
 This is a guide/tutorial thats meant for people to see what pros and cons do specific distros have, same thing with kernels, browsers, and its just overall meant to be for people who want to be more private.
 
 ## Level 1 (barely secure)
+
 Use Debian,
 
 Install apparmor, firefox, and dark reader (in firefox).
 
-Now, 
+Now, reboot, and enjoy.
+
 ## Level 2 (starter pack)
 
 Use Fedora, or Ubuntu.
 
 Install apparmor, run cyberflow's script, set up firefox, use betterfox, and switch to duckduckgo.
+Set up an adblocker aswell, with light settings.
 
 Then, switch to the hardened kernel (below).
 
@@ -27,7 +30,7 @@ Now, run ```lynis audit system```, reboot, and your done.
 
 Set up CachyOS,
 
-Set up either firefox, librewolf, or even zen, and install arkenfox.
+Set up either firefox, librewolf, or even zen, and install arkenfox. Set up an adblocker on medium security.
 
 **Tip: if youre using zen, you can install Sine.**
 
@@ -36,6 +39,18 @@ Now, run "Yet another hardening script", below.
 Then, install apparmor, and either linux-zen, linux-hardened, or linux-lqx.
 
 Now reboot, and ya done.
+
+## Level 4 (Fantastic hardening)
+
+Install linux-lqx, apparmor, zen browser or firefox, set up duckduckgo, set up an adblocker on strict settings. and lastly, run the "Yet another hardening script", below.
+
+Run ```lynis audit system```, and reboot.
+
+## Level 5 (Overkill)
+
+Use arch linux.
+
+Install Tor browser, install apparmor, set up duckduckgo, install an adblocker with the highest settings, run every script you can, install either the hardened kernel, or the liqourix kernel, run ```lynis audit system```, reboot, and youre done.
 
 ## Real Scenarios (Pre-warn)
 Do not use the same password everywhere, because hackers move FAST.
