@@ -7,25 +7,35 @@
 
 This is a guide/tutorial thats meant for people to see what pros and cons do specific distros have, same thing with kernels, browsers, and its just overall meant to be for people who want to be more private.
 
-## Concrete path (follow this!)
-Forget google, and switch to DuckDuckgo, since its way more private, and better.
+## Level 1 (barely secure)
+Use Debian,
 
-Switch to atleast firefox, and install dark reader.
+Install apparmor, firefox, and dark reader (in firefox).
 
-Google services are bad. Im not joking, they are the worst of any other. They use fingerprints, and they scan your face
-and they are NOT private.
+Now, 
+## Level 2 (starter pack)
 
-And one more thing: Try GPT4ALL, since it doesnt use the chatgpt AI data centers, it works on any shitty dell, or regular PC. 
+Use Fedora, or Ubuntu.
 
-It works offline, and its hosted directly on YOUR machine!!
+Install apparmor, run cyberflow's script, set up firefox, use betterfox, and switch to duckduckgo.
 
-Try a few games of "TryHackMe", and some OSINT. They will teach you that security flaws are no joke.
+Then, switch to the hardened kernel (below).
 
-Avoid any face scans, at all costs. Theyre really dangerous, and they are not good.
+Now, run ```lynis audit system```, reboot, and your done.
 
-Do not scan your ID, unless you HAVE to.
+## Level 3 (Good security)
 
-And NEVER click "Consent", when youre going to a website.
+Set up CachyOS,
+
+Set up either firefox, librewolf, or even zen, and install arkenfox.
+
+**Tip: if youre using zen, you can install Sine.**
+
+Now, run "Yet another hardening script", below.
+
+Then, install apparmor, and either linux-zen, linux-hardened, or linux-lqx.
+
+Now reboot, and ya done.
 
 ## Real Scenarios (Pre-warn)
 Do not use the same password everywhere, because hackers move FAST.
@@ -149,7 +159,7 @@ Then, you should probably install either arkenfox, or betterfox.
 
 Now, run 'lynis audit system'.
 
-Check if apparmor is installed, with 'aa-status'. If its not a command, then install it, using 'sudo pacman -S apparmor'
+Check if apparmor is installed, with ```aa-status```. If its not a command, then install it, using ```sudo pacman -S apparmor```
 
 Now, harden SSH with step 6.
 
