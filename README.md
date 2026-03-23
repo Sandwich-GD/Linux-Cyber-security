@@ -69,12 +69,15 @@ For maximum control and learning:
 - *GrapheneOS* (Pixel only) or *CalyxOS*: De-Googled, hardened Android ROMs with sandboxing and verified boot.
 
 **Tor Beyond the Browser**  
+
 The Tor *network* can route all your traffic:  
 
-# Use torsocks to wrap commands
+**Use torsocks to wrap commands**
+
 torsocks curl https://check.torproject.org
 
 **Or use proxychains for broader app support**
+
 proxychains firefox
 
 ## Real Scenarios (Pre-warn)
