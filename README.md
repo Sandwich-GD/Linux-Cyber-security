@@ -59,7 +59,7 @@ For maximum control and learning:
 - *Linux From Scratch (LFS)*: Build your own system from the ground up.  
 - *Gentoo*: Compile everything with custom USE flags for minimal attack surface.  
 - *Alpine Linux*: Lightweight, musl-based, great for containers and minimal setups.  
-- *\*BSD (FreeBSD, OpenBSD, NetBSD)**: Not Linux, but excellent for security-focused learning (OpenBSD's secure by default philosophy is legendary).
+- *BSD (FreeBSD, OpenBSD, NetBSD)*: Not Linux, but excellent for security-focused learning (OpenBSD's secure by default philosophy is legendary).
 
 **Hardened Kernels**
 - **CachyOS Kernel**: Includes BORE scheduler, LTO, and exploit mitigations.  
