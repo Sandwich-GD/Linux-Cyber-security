@@ -52,50 +52,6 @@ Use arch linux.
 
 Install Tor browser, install apparmor, set up duckduckgo, install an adblocker with the highest settings, run every script you can, install either the hardened kernel, or the liqourix kernel, run ```lynis audit system```, reboot, and youre done.
 
-## Advanced Options & Notes
-
-**Minimal/Source-Based Distros**  
-For maximum control and learning:  
-- *Linux From Scratch (LFS)*: Build your own system from the ground up.  
-- *Gentoo*: Compile everything with custom USE flags for minimal attack surface.  
-- *Alpine Linux*: Lightweight, musl-based, great for containers and minimal setups.  
-- *BSD (FreeBSD, OpenBSD, NetBSD)*: Not Linux, but excellent for security-focused learning (OpenBSD's secure by default philosophy is legendary).
-
-**Hardened Kernels**
-- **CachyOS Kernel**: Includes BORE scheduler, LTO, and exploit mitigations.  
-- **TKG Kernels**: Custom patches for performance + latency improvements (great for desktop + security balance).
-
-**Mobile Privacy**  
-- *GrapheneOS* (Pixel only) or *CalyxOS*: De-Googled, hardened Android ROMs with sandboxing and verified boot.
-
-**Tor Beyond the Browser**  
-
-The Tor *network* can route all your traffic:  
-
-**Use torsocks to wrap commands**
-
-torsocks curl https://check.torproject.org
-
-**Or use proxychains for broader app support**
-
-proxychains firefox
-
-## Real Scenarios (Pre-warn)
-Do not use the same password everywhere, because hackers move FAST.
-
-They will try the password on Email, Games, Google, etc. etc.
-
-When you see a shady email, like someone from microsoft or discord offering something for free?
-
-Its too good to be true.
-
-When you see someone message you on discord, asking for something really specific?
-
-Like they ask you to go on a webpage, get a bookmark, go on your games website, and click it?
-Dont.
-
-Ok, sorry, i just had to get a message out there.
-
 ## 1. Distributions
 
 *Ubuntu*: Very user-friendly, but not really for privacy. Really good for beginners though.
